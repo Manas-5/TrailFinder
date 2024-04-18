@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_new.css">
+    <script defer src="script_signup.js"></script>
+</head>
+<body class="signup">
+    <header>
+        <div class="navigation-menu">
+            <button id="menu-btn">Menu</button>
+                 <nav class="menu">
+                    <a href="Explore.html">Explore</a>
+                    <a href="HikingTips.html">Hiking Tips</a>
+                    <a href="FAQ.html">FAQ</a>
+                    <a href="AboutUs.html">Contact Us</a>
+                    <!------ for example----<a href="Samaria_Gorge.html">Samaria Gorge</a>-->
+            
+                </nav>
+        </div>  
+        <a href="TrailFinder.html">
+            <h1 id="logo">Trail Finder</h1>
+        </a>
+        
+        <div class="login-btn">
+            <button id="login-btn">Log In</button>
+        </div>
+    </header>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Enter Username">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="Enter E-mail">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password" placeholder="Enter Password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Repeat Password</label>
+                <input id="password2"name="password2" type="password" placeholder="Repeat Password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
